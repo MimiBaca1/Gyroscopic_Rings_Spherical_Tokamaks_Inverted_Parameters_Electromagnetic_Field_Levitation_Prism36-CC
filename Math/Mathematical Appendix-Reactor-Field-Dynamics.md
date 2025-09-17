@@ -65,6 +65,18 @@ Where:
 
 Define quaternion gradient operator:
 
+$$
+\Phi(x, y, z, t) = \phi_0(x, y, z, t) + \phi_1(x, y, z, t)i + \phi_2(x, y, z, t)j + \phi_3(x, y, z, t)k
+$$
+
+$$
+\nabla = \frac{\partial}{\partial x} i + \frac{\partial}{\partial y} j + \frac{\partial}{\partial z} k + \frac{\partial}{\partial t}
+$$
+
+$$
+F = \nabla \Phi
+$$
+
 
 
 \[
