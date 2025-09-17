@@ -94,6 +94,32 @@ Field strength tensor encodes electromagnetic field variations and can be used t
 Let a plasma be a component spinor field representing a combined plasma particle:
 
 
+$$
+\psi(x) = (\psi_1, \psi_2, \psi_3, \psi_4)
+$$
+
+Coupled to the quaternionic field via gauge interaction:
+
+$$
+D_\mu \psi = \partial_\mu \psi + L_\mu \psi
+$$
+
+Where:
+
+$$
+L_\mu = i e A_\mu + i g B_\mu
+$$
+
+The spinor field obeys:
+
+$$
+D_\mu D^\mu \psi = 0
+$$
+
+This models relativistic behavior and field coupling of charged particles in the reactor core.
+
+
+
 
 \[
 \psi(x) = (\psi_1, \psi_2, \psi_3, \psi_4)
@@ -138,6 +164,19 @@ This models relativistic behavior and field coupling of charged particles in the
 ### 4. Gyroscope Energy and Stability
 
 Rotational kinetic energy of ring:
+
+
+$$
+T = \frac{1}{2} I \omega^2
+$$
+
+Sensing frequency:
+
+$$
+\omega = \sqrt{\frac{k}{I}}
+$$
+
+Vibration modes = eigenmodes of the inserted structure.
 
 
 
